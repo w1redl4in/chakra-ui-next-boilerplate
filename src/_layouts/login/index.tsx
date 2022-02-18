@@ -9,15 +9,15 @@ export function LoginLayout({ children }: LoginLayoutProps) {
 
   return (
     <Flex
-      height="100vh"
+      minHeight="100vh"
       minWidth="100%"
       flexDirection={["column", "row", "row", "row"]}
     >
       <Flex
-        justifyContent="space-around"
         flexDirection="column"
-        height="100%"
+        minHeight="100%"
         w="100%"
+        py={10}
       >
         {children}
       </Flex>
